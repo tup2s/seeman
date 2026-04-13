@@ -270,6 +270,29 @@ body {
     background: var(--bg-white);
 }
 
+.service-category {
+    margin-bottom: 60px;
+}
+
+.service-category:last-child {
+    margin-bottom: 0;
+}
+
+.category-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+    color: var(--secondary);
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    border-bottom: 3px solid var(--primary);
+    display: inline-block;
+}
+
+.category-title i {
+    color: var(--primary);
+    margin-right: 10px;
+}
+
 .services-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -349,7 +372,7 @@ body {
     color: var(--text-light);
     font-size: 1.1rem;
     margin-bottom: 20px;
-    text-align: center;
+    text-align: justify;
 }
 
 .about-features {
@@ -357,11 +380,16 @@ body {
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     margin-top: 40px;
+    justify-content: center;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .feature {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 10px;
     color: var(--text-light);
     font-size: 1rem;
@@ -670,7 +698,34 @@ body {
         font-size: 0.9rem;
     }
     
-    .service-card,
+    .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+    
+    .service-card {
+        padding: 10px;
+    }
+    
+    .service-card h3 {
+        font-size: 0.9rem;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    
+    .service-card p {
+        font-size: 0.75rem;
+        line-height: 1.4;
+    }
+    
+    .service-image {
+        height: 100px;
+    }
+    
+    .category-title {
+        font-size: 1.3rem;
+    }
+    
     .contact-card {
         padding: 30px 20px;
     }
