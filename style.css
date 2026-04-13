@@ -135,7 +135,7 @@ body {
 /* ===== HERO SECTION ===== */
 .hero {
     background: linear-gradient(135deg, var(--secondary) 0%, var(--secondary-light) 100%);
-    background-image: url('https://images.pexels.com/photos/13931828/pexels-photo-13931828.jpeg?auto=compress&cs=tinysrgb&w=1920');
+    background-image: url('tło.png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
