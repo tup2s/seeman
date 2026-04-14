@@ -1,0 +1,9 @@
+# Robots.txt dla PHU Seemann
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://seemann.up.railway.app/sitemap.xml
+
+# Ukryj stronę polityki prywatności przed głównymi wynikami
+Disallow: /polityka-prywatnosci.html
