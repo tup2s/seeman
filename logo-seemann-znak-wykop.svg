@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 140" role="img" aria-labelledby="title desc">
+  <title id="title">SEEMANN - znak wykop</title>
+  <desc id="desc">Minimalistyczny znak SEEMANN inspirowany warstwami terenu i wykopem.</desc>
+  <rect width="180" height="140" rx="24" fill="#111827"/>
+  <path d="M34 43 H124" stroke="#f8fafc" stroke-width="12" stroke-linecap="round"/>
+  <path d="M35 70 H80 C92 70 102 63 112 54 L134 35" fill="none" stroke="#f59e0b" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M35 97 H146" stroke="#d1d5db" stroke-width="12" stroke-linecap="round"/>
+</svg>
